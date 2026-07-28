@@ -14,7 +14,7 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "jenkins-sa-hovb4p"
+    resource_group_name  = "jenkins-hovb4p"
     storage_account_name = "jenkinsstatehovb4p"
     container_name       = "terraform-state"
     key                  = "terraform.tfstate"
